@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const winston = require('winston');
 
-import { IS_TEST } from 'src/configs/app';
-
 const createLogger = (level: string) => {
     const transports = [
         //
@@ -35,4 +33,4 @@ const createLogger = (level: string) => {
     return logger;
 };
 
-export const logger = createLogger(IS_TEST ? 'silent' : 'info');
+export const logger = createLogger('IS_TEST' ? 'silent' : 'info');

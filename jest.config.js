@@ -18,7 +18,7 @@ module.exports = {
     coverageReporters: ['json', 'json-summary', 'lcov', 'text', 'text-summary', 'html'],
     testEnvironment: 'node',
     verbose: true,
-    setupFiles: ['dotenv/config', './jest-setup.ts'],
+    setupFiles: ['./jest-setup.ts'],
     setupFilesAfterEnv: ['jest-extended'],
     globalSetup: './jest-global-setup.js'
 };
