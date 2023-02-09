@@ -50,7 +50,7 @@ Player 2 wins!
 I had a lot of fun building this but there are some improvements I can still make:
 
 - More tests, especially  unit tests for components
-- Add a dependency injection 
+- Add dependency injection for easier extensibility and testing
 - Include a makefile to ease the execution of some common tasks
 
 # Testing
